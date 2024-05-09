@@ -7,11 +7,11 @@ Repositório para armazenar resumo da Aula 01: Criando e clonando repositórios,
 
 ## 📄 Resumo
 **Criando repositórios**
->Existem duas formas de obter um repositório Git na sua máquina:
+>>Existem duas formas de obter um repositório Git na sua máquina:
 
->- **Transformar um repositório local em Git** 
->
->>Abra o Git Bash e localize a pasta que deseja transformar. Utilizaremos então o comando _"mkdir"_ (make directory) e o nome que gostaríamos de colocar na pasta:
+- **Transformar um repositório local em Git** 
+
+Abra o Git Bash e localize a pasta que deseja transformar. Utilizaremos então o comando _"mkdir"_ (make directory) e o nome que gostaríamos de colocar na pasta:
 ```
 mkdir nome-da-pasta
 ```
@@ -25,8 +25,8 @@ git init
 ```
 Esse é um comando único que você usa durante a configuração inicial de um novo repositório. A execução desse comando cria um novo subdiretório _.git_ no diretório de trabalho atual. Essa ação também vai criar uma ramificação principal.
 
->- **Clonar um repositório existente**
-Para clonar um repositório copiaremos a url dele + o comando _"git clone"_:
+- **Clonar um repositório existente**
+>>Para clonar um repositório copiaremos a url dele + o comando _"git clone"_:
 ```
 git clone url-do-repositório-github.com
 ```
@@ -34,7 +34,7 @@ Também é possível utilizar esse mesmo comando + nome-da-pasta, assim não é 
 ```
 git clone url-do-repositório-github.com nome-da-pasta
 ```
->>Caso queira, é possível clonar uma branch específica, utilizando o mesmo comando + nome-da-branch + _"--single-branch"_, exemplo:
+Caso queira, é possível clonar uma branch específica, utilizando o mesmo comando + nome-da-branch + _"--single-branch"_, exemplo:
 ```
 git clone url-do-repositório-github.com --branch feature-1 --single branch
 ```
