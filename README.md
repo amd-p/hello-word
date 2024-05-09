@@ -10,8 +10,9 @@ Repositório para armazenar resumos sobre Git e GitHub, do curso Versionamento d
 ## 💻 Resumos das Aulas
 |Aulas|Resumos|
 |-----|-------|
-|Criando e clonando repositórios | [Resumo]()
-|Gravando alterações no repositório local | [Resumo]()
+|Criando e clonando repositórios | [Resumo](https://github.com/amd-p/hello-world/blob/main/resumos-aulas/resumo-aula-1.md)
+|Gravando alterações no repositório local | [Resumo](https://github.com/amd-p/hello-world/blob/main/resumos-aulas/resumo-aula-2.md)
+|Desfazendo alterações no repositório local | [Resumo](https://github.com/amd-p/hello-world/blob/main/resumos-aulas/resumo-aula-3.md)
 
 ## 🔍 Referências 
 - [Digital Innovation One](https://web.dio.me/home)
