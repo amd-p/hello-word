@@ -6,7 +6,7 @@ Repositório para armazenar resumo da Aula 02: Salvando alterações no reposit�
 
 ## 📄 Resumo
 **Alterações no repositório**
-Após realizar as alterações necessárias em seu arquivo, vamos utilizar principalmente três comandos no Git para salvar essas alterações, são eles:
+>Após realizar as alterações necessárias em seu arquivo, vamos utilizar principalmente três comandos no Git para salvar essas alterações, são eles:
 
 ```
 git add, git status e git commit
@@ -16,21 +16,21 @@ Antes da execução de _git commit_, o comando _git add_ é usado para promover 
 Estes dois comandos, git commit e git add, estão entre os mais usados.
 
 - **git add** 
-Comando utilizado para salvar alterações na área de staging, isso significa que essas mudanças estão sinalizadas para serem salvas no próximo commit, ou seja, ainda não foram aplicadas.
+>Comando utilizado para salvar alterações na área de staging, isso significa que essas mudanças estão sinalizadas para serem salvas no próximo commit, ou seja, ainda não foram aplicadas.
 ```
 git add nome-do-arquivo
 ```
 Se, logo após, usarmos o comando _git status_, percebemos que o arquivo ainda não foi salvo e para salva-lo utilizaremos o comando a seguir.
 
 - **git commit**
-Comando responsável por salvar as alterações da área de staging para o diretório final.  Você pode adicionar uma mensagem ao seu commit. Veremos no exemplo a seguir:
+>Comando responsável por salvar as alterações da área de staging para o diretório final.  Você pode adicionar uma mensagem ao seu commit. Veremos no exemplo a seguir:
 ```
 git commit -m "mensagem"
 ```
 Nos permite escrever uma mensagem entre as aspas, que será salva junto a alteração.
 
 - **git status**
-Exibe as condições do diretório de trabalho e da área de staging. Ele permite que você veja quais alterações foram despreparadas, quais não foram e quais arquivos não estão sendo monitorados pelo Git. Este comando pode ser utilizado a qualquer momento.
+>Exibe as condições do diretório de trabalho e da área de staging. Ele permite que você veja quais alterações foram despreparadas, quais não foram e quais arquivos não estão sendo monitorados pelo Git. Este comando pode ser utilizado a qualquer momento.
 ```
 git status
 ```

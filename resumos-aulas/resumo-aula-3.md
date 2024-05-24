@@ -7,25 +7,25 @@ Repositório para armazenar resumo da Aula 03: Desfazendo alterações no reposi
 
 ## 📄 Resumo
 **Desfazendo alterações**
-Caso tenha realizado alguma alteração errônea em seu projeto, podemos utilizar alguns comandos para desfaze-lo, são eles:
+>Caso tenha realizado alguma alteração errônea em seu projeto, podemos utilizar alguns comandos para desfaze-lo, são eles:
 
 - **rm -rf .git**
-Comando utilizado para desfazer o versionamento de uma pasta, ocorre quando utilizamos _git init_ na pasta incorreta.
+>Comando utilizado para desfazer o versionamento de uma pasta, ocorre quando utilizamos _git init_ na pasta incorreta.
 
 - **git restore** 
-Trata da restauração dos arquivos na árvore de trabalho do índice ou de outro commit. Restaura para ultima versão commitada.
+>Trata da restauração dos arquivos na árvore de trabalho do índice ou de outro commit. Restaura para ultima versão commitada.
 ```
 git restore
 ```
 
 - **git commit --amend -m ""**
-Comando responsável por alterar mensagem do commit. Não altera o conteúdo.  A mensagem deve ser inserida entre as aspas. Exemplo:
+>Comando responsável por alterar mensagem do commit. Não altera o conteúdo.  A mensagem deve ser inserida entre as aspas. Exemplo:
 ```
 git commit --amend -m "nova-mensagem"
 ```
 
 - **git reset**
-Comando responsável por desfazer alterações no conteúdo de um commit. Utilizamos adjunto de outro comando, temos três:
+>Comando responsável por desfazer alterações no conteúdo de um commit. Utilizamos adjunto de outro comando, temos três:
 
 **soft:**
 ```

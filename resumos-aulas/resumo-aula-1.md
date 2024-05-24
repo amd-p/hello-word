@@ -7,7 +7,7 @@ Repositório para armazenar resumo da Aula 01: Criando e clonando repositórios,
 
 ## 📄 Resumo
 **Criando repositórios**
-Existem duas formas de obter um repositório Git na sua máquina:
+>Existem duas formas de obter um repositório Git na sua máquina:
 
 - **Transformar um repositório local em Git** 
 
@@ -26,7 +26,7 @@ git init
 Esse é um comando único que você usa durante a configuração inicial de um novo repositório. A execução desse comando cria um novo subdiretório _.git_ no diretório de trabalho atual. Essa ação também vai criar uma ramificação principal.
 
 - **Clonar um repositório existente**
->>Para clonar um repositório copiaremos a url dele + o comando _"git clone"_:
+>Para clonar um repositório copiaremos a url dele + o comando _"git clone"_:
 ```
 git clone url-do-repositório-github.com
 ```
