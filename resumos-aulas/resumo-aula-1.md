@@ -7,7 +7,7 @@ Repositório para armazenar resumo da Aula 01: Criando e clonando repositórios,
 
 ## 📄 Resumo
 **Criando repositórios**
->>Existem duas formas de obter um repositório Git na sua máquina:
+Existem duas formas de obter um repositório Git na sua máquina:
 
 - **Transformar um repositório local em Git** 
 
